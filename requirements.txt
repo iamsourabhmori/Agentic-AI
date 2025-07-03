@@ -1,0 +1,7 @@
+streamlit
+crewai
+pyttsx3
+PyPDF2
+pydantic
+gTTS
+espeak-ng 
