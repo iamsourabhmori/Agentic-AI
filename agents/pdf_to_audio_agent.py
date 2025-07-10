@@ -27,7 +27,7 @@
 from tools.document_parser import DocumentParserTool
 from tools.text_to_speech import TextToSpeechTool
 from tools.gemini_summary import GeminiSummaryTool
-# from tools.openai_summary import OpenAISummaryTool 
+
 
 def run_agent(file_path: str, speed: str = "normal") -> dict:
     parser = DocumentParserTool()

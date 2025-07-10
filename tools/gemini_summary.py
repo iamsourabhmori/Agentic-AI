@@ -154,7 +154,7 @@ class GeminiSummaryTool(BaseTool):
             genai.configure(api_key=api_key)
 
             # ✅ Use the latest, supported model
-            model = genai.GenerativeModel(model_name="gemini-2.5-pro")
+            model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
 
             prompt = f"""
 You are a helpful assistant summarizing a document.
